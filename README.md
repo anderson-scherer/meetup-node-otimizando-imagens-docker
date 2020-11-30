@@ -3,10 +3,11 @@
 **- otimizados:** dockerfiles com otimização de projetos
 
 ## Projetos
-- **Go Lang**: Projeto soma
-- **NodeJS**: Projeto em Nestjs
-- **ReactJS / Server NodeJS**: Projeto básico com CRA, server node para arquivos estatícos
-- **ReactJS / Server NGINX**: Projeto básico com CRA, server NEGINX para arquivos estatícos
+- **Go Lang**
+- **NodeJS / NestJS**
+- **NodeJS / TypeScript** 
+- **ReactJS / Server NodeJS**
+- **ReactJS / Server NGINX**
 
 # Requisitos de sistema: Execução local
 
