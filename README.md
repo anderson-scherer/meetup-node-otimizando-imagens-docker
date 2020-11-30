@@ -1,6 +1,6 @@
 # Branchs
-**- master:** dockerfiles sem otimização de projetos
-**- otimizados:** dockerfiles com otimização de projetos
+- **- master:** dockerfiles sem otimização de projetos
+- **- otimizados:** dockerfiles com otimização de projetos
 
 ## Projetos
 - **Go Lang**
