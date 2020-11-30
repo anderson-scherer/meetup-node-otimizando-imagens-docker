@@ -1,16 +1,25 @@
-# typescript-node-example
-Examples project demonstrating how to build things with TypeScript and Node
+# Requisitos de sistema: Execução local
 
-![](images/preview-1.png)
-![](images/preview-2.png)
+- Node ^12
+- Porta 3000 liberada
 
-## Getting Started
-1. Ensure you have somewhat recent versions of [Node](https://nodejs.org/en/) and [TypeScript](https://www.typescriptlang.org)
-2. Clone this project
-3. In the project folder, run `npm install`
+# Executar aplicação local: build
+```
+$ npm intall
+$ npm run build
+```
+Saída esperada
+```
+> typescript-node-example@1.0.0 build /home/anderson/Projects/Personal/meetup-node-otimizando-imagens-docker/node-typescript
+> tsc --build
 
-## Testing it out
-1. To start the API server, run `node build/index.js start-server`
-2. Experiment with the API using `curl localhost:3000`
-3. Follow the API help messages to create new vehicles in the data store
-4. To list the created vehicles, run `node build/index.js list-vehicles`
+```
+
+# Executar aplicação local: start
+```
+$ npm run start
+```
+Saída esperada
+```
+$ Listening on port 3000
+```
