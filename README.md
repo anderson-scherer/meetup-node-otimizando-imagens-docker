@@ -11,7 +11,7 @@
 # Requisitos de sistema: Execução local
 
 - Docker ^19.x.x
-- Porta 8080 liberada
+- Portas 8080 e 3000 liberadas
 
 # Instalação: Docker
 
