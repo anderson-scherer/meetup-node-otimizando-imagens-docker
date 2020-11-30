@@ -8,10 +8,10 @@
 - **ReactJS / Server NodeJS**: Projeto básico com CRA, server node para arquivos estatícos
 - **ReactJS / Server NGINX**: Projeto básico com CRA, server NEGINX para arquivos estatícos
 
-
 # Requisitos de sistema: Execução local
 
 - Docker ^19.x.x
+- Porta 8080 liberada
 
 # Instalação: Docker
 
