@@ -3,16 +3,15 @@
 - **- otimizados:** dockerfiles com otimização de projetos
 
 ## Projetos
-- **Go Lang**
-- **NodeJS / NestJS**
-- **NodeJS / TypeScript** 
-- **ReactJS / Server NodeJS**
-- **ReactJS / Server NGINX**
+- **Go Lang** - Porta 8080
+- **NodeJS / NestJS** - Porta 3000
+- **NodeJS / TypeScript**  - Porta 3000
+- **ReactJS / Server NodeJS** - Porta 3000
+- **ReactJS / Server NGINX** - Porta 80
 
 # Requisitos de sistema: Execução local
 
 - Docker ^19.x.x
-- Portas 8080 e 3000 liberadas
 
 # Instalação: Docker
 
@@ -22,11 +21,11 @@
 # [Gerando uma nova imagem: docker build](https://docs.docker.com/engine/reference/commandline/image_build/)
 
 ```
-$ docker build -t [nome_da_imagem] .
+$ docker build -t [nome_da_imagem:tag] [/path]
 ```
 
 - **-t, --tag** fechando tag de versão
-- **'.'** Apontamento deo diretório da aplicação
+- **[/path]** Apontamento deo diretório da aplicação
 
 ## [Listando Imagens: docker images](https://docs.docker.com/engine/reference/commandline/images/)
 ```
