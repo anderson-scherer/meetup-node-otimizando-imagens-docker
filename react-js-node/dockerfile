@@ -1,0 +1,17 @@
+FROM node:14 AS builder
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+ADD .env.example .env
+
+RUN npm run build
+
+EXPOSE 3000
+
+CMD ["sh", "-c", "node server.js"];
