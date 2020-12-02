@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:prd": "npm install express express-favicon dotenv",
+    "start:prd": "npm install express-favicon dotenv",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -13,16 +13,16 @@ RUN npm install && \
 npm run build
 
 FROM node:14-alpine
-# Defining working directory
+# Definição do diretório principal
+
 WORKDIR /app
 
 # Copiando apenas os arquivos necessários
 COPY --from=builder /app/build ./build
-COPY --from=builder /app/package*.json ./
 COPY --from=builder /app/server.js .
 
 # Instalando dependências do projeto
-RUN npm run start:prd
+RUN npm install express-favicon dotenv
 
 # Adicionando variáveis para ambiente de producão
 ENV REACT_APP_ENVIRONMENT="Prd"
