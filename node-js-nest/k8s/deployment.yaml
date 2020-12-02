@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-js-nest
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: node-js-nest
+  template:
+    metadata:
+      labels:
+        app: node-js-nest
+    spec:      
+      containers:
+      - name: node-js-nest
+        image: andersonscherer/node-js-nest:01-otz
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000

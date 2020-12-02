@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-services
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 3000
+  selector:
+    app: node-js-nest
