@@ -39,6 +39,7 @@ $ docker rmi go-lang:0.1 .
 ### Remoção de imagens em lote
 ```
 $ docker rmi $(docker images -a -q)
+$ docker rmi --force $(docker images -q)
 ```
 - **-a** listar todas as imagens
 - **-q** Mostrar apenas IDs numéricos
