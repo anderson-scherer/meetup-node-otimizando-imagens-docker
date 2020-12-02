@@ -2,15 +2,12 @@ FROM node:14
 
 WORKDIR /app
 
-COPY package*.json ./
-
-RUN npm install
-
 COPY . .
 
-ADD .env.example .env
+RUN npm install && \
+npm run build
 
-RUN npm run build
+ADD .env.example .env
 
 EXPOSE 3000
 
