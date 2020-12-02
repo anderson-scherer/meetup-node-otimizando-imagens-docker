@@ -7,6 +7,6 @@ func main()  {
 }
 
 func sum(sumA, sumB int) int {
-	return sumA + sumB
+	return sumA + sumB 
 }
 
